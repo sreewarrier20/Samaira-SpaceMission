@@ -90,6 +90,9 @@ if(gameState==1){
     astronaut1.velocityX=0
   }
   */
+  
+  astronaut1.x=mouseX;
+  
   camera.position.y= astronaut1.y
   camera.position.x=width/2
 
