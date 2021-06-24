@@ -75,7 +75,7 @@ if(gameState==1){
 
   }
 
-
+/*
   if(keyWentDown("right")){
     astronaut1.velocityX=20
   }
@@ -89,10 +89,8 @@ if(gameState==1){
   if(keyWentUp("left")){
     astronaut1.velocityX=0
   }
-  
-  
-  
-  
+  */
+ astronaut1.x=mouseX;
   camera.position.y= astronaut1.y
   camera.position.x=width/2
 
